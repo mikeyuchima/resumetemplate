@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+// const port = 3000 commented for heroku
 
 app.use(express.static('public'));
 //Store all HTML files in view folder.
